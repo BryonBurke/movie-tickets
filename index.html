@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Movie Tickets</title>
+</head>
+
+<body>
+    <h1>Movie Tickets</h1>
+    <div class="container">
+      <form id="movieTickets">
+        <select class="form-control" id="movieTitles">
+          <option>- Select Movie -</option>
+          <option value="Movie1">Movie1</option>
+          <option value="Movie2">Movie2</option>
+          <option value="Movie3">Movie3</option>
+          <option value="Movie4">Movie4</option>
+          <option value="PremiumMovie">PremiumMovie</option>
+        </select>
+        <select class="form-control" id="movieTimes">
+          <option>- Time -</option>
+          <option value="9am">9am</option>
+          <option value="12pm">12pm</option>
+          <option value="3pm">3pm</option>
+          <option value="8pm">8pm</option>
+        </select>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="seniorDiscount">
+          <label class="form-check-label" for="exampleCheck1" value="discount">Age 55+</label>
+        </div>
+        <button type="submit" class="btn btn-lg btn-info">Get Tickets</button>
+      </form>
+    </div>
+
+</body>
+
+</html>
